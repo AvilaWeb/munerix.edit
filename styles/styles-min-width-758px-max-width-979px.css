@@ -1,0 +1,166 @@
+@charset "utf-8";
+/** Copyright 2021 Munerix. All rights reserved. */
+
+@media only screen and (min-width: 758px) and (max-width: 979px) {
+	
+	:root {
+		--footer-height: 393px;
+	}
+	
+	form {
+		margin-top: 25px;
+	}
+
+	.page {
+		width: 710px;
+	}
+	
+	form .input-ux.input {
+		width: 333px;
+	}
+	
+	.intro-container {
+		display: none;
+	}
+	
+	main section {
+		padding: 60px 0;
+	}
+	
+	#hero .hero-container {
+		height: 100%;
+		transition: unset;
+	}
+
+	#hero .hero-image::before {
+		content: none;
+	}
+	
+	#hero .hero-catchphrase {
+		width: 94vw;
+		top: auto;
+		left: 0;
+		right: 0;
+		bottom: 24vh;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	#hero .hero-catchphrase h1 {
+		margin: 0 0 5vh;
+		font-size: 6vw;
+	}
+	
+	#hero .hero-catchphrase p {
+		margin: 10px 15px;
+		font-size: 15px;
+		letter-spacing: 0.3px;
+	}
+	
+	#hero .skewhero-mask {
+		display: none;
+	}
+	
+	a.chevron-container {
+		bottom: 30px;
+	}
+	
+	main section.header {
+		padding: 60px 0;
+	}
+	
+	main section.header:before {
+		right: 20%;
+	}
+	
+	main section.header:after {
+		content: none;
+	}
+	
+	iframe#notfound {
+		margin-bottom: -50px;
+	}
+	
+	main h2 {
+		margin: 10px 0 30px;
+	}
+	
+	main section.header h1 {
+		margin: 40px 0;
+	}
+	
+	main .eyecatcher {
+		margin-bottom: 25px;
+	}
+	
+	main article.grid {
+		grid-gap: 30px;
+	}
+	
+	main article.workflow:before {
+		left: calc(var(--workflow-bullet) / 2);
+	}
+	
+	article.workflow .workflow-item {
+		width: auto;
+	}
+	
+	article.workflow .workflow-item:nth-child(n):after {
+		content: none;
+	}
+	
+	article.workflow .workflow-item:nth-child(n):before {
+		content: "";
+	}
+	
+	article.workflow .workflow-item > * {
+		width: 95%;
+	}
+	
+	main .card-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	main .card {
+		padding: 40px 20px;
+	}
+	
+	img.corevalues {
+		height: 50px;
+		margin-bottom: 5px;
+	}
+	
+	.floatbox {
+		margin: 15px 0;
+	}
+	
+	.floatbox img {
+		width: 25%;
+		padding: 0 20px;
+	}
+	
+	.floatbox p {
+		padding: 40px 30px;
+	}
+	
+	#location {
+		height: 450px;
+	}
+	
+	footer .page {
+		width: 710px;
+	}
+	
+	footer section {
+		padding: 0 15px;
+	}
+	
+	footer .footer-info, footer .footer-nav {
+		flex: 0 0 50%;
+	}
+	
+	footer svg.footer-logo, footer .footer-legal {
+		flex: 0 0 100%;
+		margin-left: 15px;
+	}
+}

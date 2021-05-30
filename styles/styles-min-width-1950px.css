@@ -1,0 +1,19 @@
+@charset "utf-8";
+/** Copyright 2020 Munerix. All rights reserved. */
+
+@media only screen and (min-width: 1950px) {
+	
+	#hero .hero-catchphrase {
+		width: 650px;
+		right: 10vw;
+	}
+	
+	main h1 {
+		font-size: 78px;
+		line-height: 95px;
+	}
+	
+	#hero .hero-catchphrase p {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+/** Copyright 2021 Munerix. All rights reserved. */
+
+@media only screen and (min-width: 980px) and (max-width: 1229px) {
+	
+	form {
+		margin-top: 30px;
+	}
+
+	.page {
+		width: 930px;
+	}
+	
+	form .input-ux.input {
+		width: 287.5px;
+	}
+	
+	main section {
+		padding: 70px 0;
+	}
+	
+	#hero .hero-catchphrase {
+		width: 350px;
+		right: 80px;
+	}
+	
+	#hero .hero-catchphrase p {
+		margin-left: 50px;
+	}
+	
+	#hero .skewhero-image {
+		background-size: 150% auto;
+		background-position: -130px -60px;
+	}
+	
+	main section.header {
+		padding: 80px 0;
+	}
+	
+	main section.header:before {
+		right: 30%;
+	}
+	
+	iframe#notfound {
+		margin-bottom: -70px;
+	}
+	
+	main h2 {
+		margin: 20px 0 35px;
+	}
+	
+	main .eyecatcher {
+		margin-bottom: 30px;
+	}
+	
+	main article.grid {
+		grid-gap: 30px;
+	}
+	
+	main .card-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	main .card {
+		padding: 50px 40px;
+	}
+	
+	img.corevalues {
+		height: 55px;
+	}
+	
+	.floatbox {
+		margin: 20px 0;
+	}
+	
+	.floatbox p {
+		padding: 45px 30px;
+	}
+	
+	footer .page {
+		width: 875px;
+	}
+	
+	footer svg.footer-logo {
+		flex: 0 0 18%;
+	}
+	
+	footer .footer-legal {
+		margin-left: 18%;
+	}
+}

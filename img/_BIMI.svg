@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny-ps" id="Munerix_BIMI" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150 150">
+<rect fill="#FFFFFF" width="150" height="150"/>
+<g id="Munerix-logo">
+	<g>
+		<path fill="#485A5F" d="M64.9,68L52.5,49.6H38l18.7,28.3C59,74.8,61.6,71.6,64.9,68z"/>
+		<path fill="#485A5F" d="M72.9,83.3c-1.8,2.7-3.9,6.2-6,10l15.3,23.1h15.3L74,81.6C73.6,82.2,73.3,82.8,72.9,83.3z"/>
+	</g>
+	<path fill="#BA0B10" d="M129.3,24.5c0,0-31.8,16.3-47.5,31.5C72,65.5,64.1,74,58.6,81.8s-24.3,34.7-24.3,34.7h15.5c0,0,12.7-24.2,19.9-35.2C85.8,56.6,110.1,35.5,129.3,24.5z"/>
+</g>
+</svg>
